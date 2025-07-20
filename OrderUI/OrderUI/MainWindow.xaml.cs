@@ -1,6 +1,4 @@
-﻿using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Text;
+﻿using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -10,18 +8,19 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xml.Linq;
 
-namespace Order
+namespace OrderUI
 {
-
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow(string ip)
+        public MainWindow(String name)
         {
             InitializeComponent();
-            this.DataContext = new ViewModel(ip);
+            this.DataContext = new ViewModel(name);
         }
-
-        public MainWindow() { }
     }
 }

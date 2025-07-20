@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderUI", "OrderUI\OrderUI.csproj", "{740A77C7-2413-4148-809A-59C72F8D7A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharedlib", "Sharedlib\Sharedlib.csproj", "{1DC1FEDF-72D8-4D17-8406-B2927B4916EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{740A77C7-2413-4148-809A-59C72F8D7A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740A77C7-2413-4148-809A-59C72F8D7A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740A77C7-2413-4148-809A-59C72F8D7A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740A77C7-2413-4148-809A-59C72F8D7A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC1FEDF-72D8-4D17-8406-B2927B4916EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC1FEDF-72D8-4D17-8406-B2927B4916EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC1FEDF-72D8-4D17-8406-B2927B4916EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC1FEDF-72D8-4D17-8406-B2927B4916EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0725573-BF2B-4EFA-A22E-299A5AD82CC8}
+	EndGlobalSection
+EndGlobal

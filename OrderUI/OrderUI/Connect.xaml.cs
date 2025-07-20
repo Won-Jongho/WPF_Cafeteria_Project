@@ -10,28 +10,28 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Order
+namespace OrderUI
 {
     /// <summary>
-    /// InputIP.xaml에 대한 상호 작용 논리
+    /// Connect.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class InputIP : Window
+    public partial class Connect : Window
     {
-        public InputIP()
+        public Connect()
         {
             InitializeComponent();
         }
 
-
         private void ConnectButton_Click(object sender, RoutedEventArgs e)
         {
             string ip = IpTextBox.Text.Trim();
+            int port = 3333;
 
             try
             {
+
                 var mainWindow = new MainWindow(ip);
                 mainWindow.Show();
 
