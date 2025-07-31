@@ -15,7 +15,7 @@
 `ManagerUI`는 크게 재고 관리, 매출 조회의 2가지 페이지로 나뉘며, 각 페이지는 사용자가 직관적으로 사용할 수 있도록 구성되어 있다. 실제 UI 화면과 각 기능에 대해서는 이어지는 항목에서 캡쳐본과 함께 설명한다.
 
 ### 3.1. **재고 관리 페이지**
-<img width="983" height="555" alt="화면 캡처 2025-07-28 재고관리1" src="https://github.com/user-attachments/assets/19874a28-b535-4aed-90dd-cd87eec4cabd" />
+<img width="886" height="500" alt="화면 캡처 2025-07-31 재고관리1" src="https://github.com/user-attachments/assets/c7087864-ac72-41d3-aacf-8af70f0b3a19" />
 
 ### 3.1.1. **재고 관리 버튼**
 - 재고 관리 페이지로 이동한다.
@@ -32,21 +32,21 @@
 ### 3.1.5. **재고 목록**
 - 카페가 보유하고 있는 재고 목록이다. csv파일로 관리되고 있으며, 클릭하면 재고 정보 입력 란에 해당 재고의 ID, 이름, 단가, 수량, 입고일 정보가 나타난다.
   
-  <img width="983" height="555" alt="화면 캡처 2025-07-28 재고관리2" src="https://github.com/user-attachments/assets/fc88a349-b44e-4d77-b8ff-b05ce1412998" />
+  <img width="886" height="500" alt="화면 캡처 2025-07-28 재고관리2" src="https://github.com/user-attachments/assets/fc88a349-b44e-4d77-b8ff-b05ce1412998" />
 - 사용자가 원한다면 재고 목록에서 재고가 선택된 상태에서 나타난 정보에 다른 값을 입력할 수 있다. 입고일은 DateTime 클래스로 구현되어 달력 형태의 UI를 통해 선택할 수 있다.
   
-  <img width="983" height="555" alt="화면 캡처 2025-07-28 재고관리3" src="https://github.com/user-attachments/assets/3a84dcbb-0282-494b-abe6-2982ad2b0b36" />
+  <img width="886" height="500" alt="화면 캡처 2025-07-28 재고관리3" src="https://github.com/user-attachments/assets/3a84dcbb-0282-494b-abe6-2982ad2b0b36" />
 
 ### 3.1.6. **수정 버튼**
 - 사용자가 재고 목록에서 재고를 선택한 상태에서 클릭하면 재고 정보 입력 란에 표시된 정보를 해당 재고의 정보로 반영한다.
-  
-  <img width="983" height="555" alt="화면 캡처 2025-07-28 재고관리4" src="https://github.com/user-attachments/assets/960c088e-a9a1-407a-b953-29d4c9e298e7" />
+
+  <img width="886" height="500" alt="화면 캡처 2025-07-31 재고관리4" src="https://github.com/user-attachments/assets/29d52ff2-cb3f-46e3-bbe6-87c4ec2c85b5" />
 
 ### 3.1.7. **삭제 버튼**
 - 사용자가 재고 목록에서 재고를 선택한 상태에서 클릭하면 해당 재고가 재고 목록에서 삭제된다.
 
 ### 3.2. **매출 조회 페이지**
-<img width="983" height="555" alt="화면 캡처 2025-07-28 매출 조회1" src="https://github.com/user-attachments/assets/3a1ffb7d-ac89-4374-8011-82712993ab70" />
+<img width="886" height="500" alt="화면 캡처 2025-07-31 매출조회1" src="https://github.com/user-attachments/assets/b9bff700-590e-4302-93cb-2f2d216eb513" />
 
 ### 3.2.1. **기간 설정**
 - DateTime 클래스로 구현된 달력 형태의 UI를 통해 매출을 조회하고자 하는 기간을 설정할 수 있다.
